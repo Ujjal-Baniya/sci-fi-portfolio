@@ -1,6 +1,6 @@
 // src/components/ProjectsSection.jsx
 import React from 'react';
-import { ExternalLink } from 'lucide-react';
+import { Code, ExternalLink } from 'lucide-react';
 
 const ProjectsSection = () => {
   const projects = [
@@ -41,9 +41,12 @@ const ProjectsSection = () => {
   return (
     <section className="py-20 px-8 bg-gray-900 bg-opacity-50" id="projects">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
-          Projects <span className="text-cyan-400">_</span>
-        </h2>
+        <div className="flex items-center justify-center mb-12">
+          <Code size={32} className="text-cyan-400 mr-4" />
+          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
+            Projects <span className="text-cyan-400">_</span>
+          </h2>
+        </div>
         
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (

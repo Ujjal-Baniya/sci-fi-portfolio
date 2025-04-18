@@ -1,5 +1,6 @@
 // src/components/EducationSection.jsx
 import React from 'react';
+import { BookOpen } from 'lucide-react';
 
 const EducationSection = () => {
   const educationData = [
@@ -29,9 +30,12 @@ const EducationSection = () => {
   return (
     <section className="py-20 px-8" id="education">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
-          Education <span className="text-cyan-400">&lt;/&gt;</span>
-        </h2>
+        <div className="flex items-center justify-center mb-12">
+          <BookOpen size={32} className="text-cyan-400 mr-4" />
+          <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
+            Education <span className="text-cyan-400">&lt;/&gt;</span>
+          </h2>
+        </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           {educationData.map((item, index) => (
