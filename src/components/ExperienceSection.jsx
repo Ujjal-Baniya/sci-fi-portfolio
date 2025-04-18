@@ -35,8 +35,8 @@ const ExperienceSection = () => {
   ];
   
   return (
-    <section className="py-20 px-8" id="experience">
-      <div className="max-w-4xl mx-auto">
+    <section className="min-h-screen flex flex-col items-center justify-center p-8 relative" id="experience">
+      <div className="max-w-4xl w-full bg-gray-900 bg-opacity-80 p-8 rounded-lg border border-cyan-500 shadow-lg shadow-cyan-500/20">
         <h2 className="text-4xl font-bold mb-12 text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
           Experience <span className="text-cyan-400">[]</span>
         </h2>
@@ -47,7 +47,7 @@ const ExperienceSection = () => {
               key={exp.id} 
               className="mb-12 relative"
             >
-              <div className="absolute w-4 h-4 rounded-full bg-cyan-500 border-4 border-gray-900 -left-10 top-1.5"></div>
+              <div className="absolute w-4 h-4 rounded-full bg-cyan-500 border-4 border-gray-900 -left-10 top-1.5 timeline-dot"></div>
               <div className="absolute w-12 h-0.5 bg-cyan-800 -left-8 top-3.5"></div>
               
               <div className="bg-gray-900 p-6 rounded-lg border border-gray-800 hover:border-cyan-500 transition-all duration-300 group">

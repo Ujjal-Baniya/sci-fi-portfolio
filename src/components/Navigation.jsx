@@ -4,41 +4,42 @@ import React, { useState, useEffect } from 'react';
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-    
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-  
+
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900 bg-opacity-90 shadow-lg shadow-cyan-500/10' : 'bg-transparent'}`}>
       <div className="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
           NC
         </a>
-        
+
         <div className="hidden md:flex space-x-8">
-          {['About', 'Education', 'Projects', 'Experience'].map((item) => (
+          {['Email Me', 'Education', 'Projects', 'Experience'].map((item) => (
             <a 
               key={item} 
-              href={`#${item.toLowerCase()}`}
+              href={item === 'Email Me' ? "mailto:ujjalbaniya@gmail.com" : `#${item.toLowerCase()}`}
               className="text-gray-300 hover:text-cyan-400 transition-colors duration-300"
             >
               {item}
             </a>
           ))}
         </div>
-        
-        <button 
-          className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-md font-medium text-white hidden md:block hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
-        >
-          Contact Me
-        </button>
-        
+
+        <a 
+            href="mailto:ujjalbaniya@gmail.com"
+            className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-md font-medium text-white hidden md:block hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105"
+          >
+            Email Me
+          </a>
+
         <button 
           className="text-gray-300 md:hidden"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -48,25 +49,26 @@ const Navigation = () => {
           </svg>
         </button>
       </div>
-      
+
       {isMenuOpen && (
         <div className="bg-gray-900 bg-opacity-95 md:hidden">
           <div className="px-8 py-4 flex flex-col space-y-4">
-            {['About', 'Education', 'Projects', 'Experience'].map((item) => (
+            {['Email Me', 'Education', 'Projects', 'Experience'].map((item) => (
               <a 
                 key={item} 
-                href={`#${item.toLowerCase()}`}
+                href={item === 'Email Me' ? "mailto:ujjalbaniya@gmail.com" : `#${item.toLowerCase()}`}
                 className="text-gray-300 hover:text-cyan-400 transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {item}
               </a>
             ))}
-            <button 
+            <a 
+              href="mailto:ujjalbaniya@gmail.com"
               className="px-4 py-2 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-md font-medium text-white self-start"
             >
-              Contact Me
-            </button>
+              Email Me
+            </a>
           </div>
         </div>
       )}

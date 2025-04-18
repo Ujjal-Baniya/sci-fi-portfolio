@@ -3,7 +3,7 @@ import React from 'react';
 
 const AnimatedBackground = () => {
   return (
-    <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10">
+    <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-1">
       <div className="stars"></div>
       <div className="grid"></div>
       <style jsx>{`

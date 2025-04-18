@@ -13,9 +13,9 @@ const HeroSection = () => {
           <div className="absolute top-1/4 left-1/4 w-1/2 h-1/2 bg-cyan-400 rounded-full animate-pulse"></div>
         </div>
       </div>
-      
+
       <RobotCharacter />
-      
+
       <div className="max-w-4xl w-full bg-gray-900 bg-opacity-80 p-8 rounded-lg border border-cyan-500 shadow-lg shadow-cyan-500/20">
         <h1 className="text-5xl md:text-7xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
           NEO CODER
@@ -28,15 +28,15 @@ const HeroSection = () => {
           Specializing in React, AI systems, and secure application architecture.
         </p>
         <div className="flex gap-4">
-          <button className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-md font-medium text-white hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
-            <User size={18} /> About Me
-          </button>
-          <button className="px-6 py-3 bg-transparent border border-cyan-500 rounded-md font-medium text-cyan-400 hover:bg-cyan-950 transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
+          <a href="mailto:ujjalbaniya@gmail.com" className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-md font-medium text-white hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
+            <User size={18} /> Email Me
+          </a>
+          <a href="#projects" className="px-6 py-3 bg-transparent border border-cyan-500 rounded-md font-medium text-cyan-400 hover:bg-cyan-950 transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
             <Code size={18} /> View Projects
-          </button>
+          </a>
         </div>
       </div>
-      
+
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-10 h-10 border-2 border-cyan-400 rounded-full flex items-center justify-center">
           <svg 

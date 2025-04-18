@@ -37,7 +37,7 @@ const App = () => {
   }
   
   return (
-    <div className="bg-gray-950 text-white min-h-screen">
+    <div className="text-white min-h-screen">
       <CustomCursor />
       <AnimatedBackground />
       <ParticleEffect />
@@ -45,11 +45,17 @@ const App = () => {
       <Navigation />
       
       {/* Main content container for better layout control */}
-      <div className="w-full overflow-hidden">
+      <div className="w-full overflow-x-hidden relative">
         <HeroSection />
-        <EducationSection />
-        <ProjectsSection />
-        <ExperienceSection />
+        <div className="relative z-10">
+          <EducationSection />
+        </div>
+        <div className="relative z-20">
+          <ProjectsSection />
+        </div>
+        <div className="relative z-30">
+          <ExperienceSection />
+        </div>
         <Footer />
       </div>
       
