@@ -6,9 +6,7 @@ import ParticleEffect from './components/ParticleEffect';
 import FloatingDrone from './components/FloatingDrone';
 import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
-import EducationSection from './components/EducationSection';
-import ProjectsSection from './components/ProjectsSection';
-import ExperienceSection from './components/ExperienceSection';
+import FixedLayout from './components/FixedLayout';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -43,15 +41,9 @@ const App = () => {
       <ParticleEffect />
       <FloatingDrone />
       <Navigation />
-      
-      {/* Main content container for better layout control */}
-      <div className="w-full overflow-hidden">
-        <HeroSection />
-        <EducationSection />
-        <ProjectsSection />
-        <ExperienceSection />
-        <Footer />
-      </div>
+      <HeroSection />
+      <FixedLayout />
+      <Footer />
       
       {/* Click Effect Handler */}
       <div id="click-effect-container" className="fixed top-0 left-0 w-full h-full pointer-events-none z-50"></div>
