@@ -26,21 +26,15 @@ const Footer = () => {
           </div>
           
           <div className="flex gap-6">
-            <a href="#" className="social-icon group">
+            <a href="https://github.com/Ujjal-Baniya" className="social-icon group">
               <div className="relative">
                 <Github size={24} className="text-gray-400 group-hover:text-cyan-400 transition-colors duration-300" />
                 <div className="absolute inset-0 blur-sm bg-cyan-500 opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
               </div>
             </a>
-            <a href="#" className="social-icon group">
+            <a href="https://www.linkedin.com/in/ujjalbaniya/" className="social-icon group">
               <div className="relative">
                 <Linkedin size={24} className="text-gray-400 group-hover:text-cyan-400 transition-colors duration-300" />
-                <div className="absolute inset-0 blur-sm bg-cyan-500 opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
-              </div>
-            </a>
-            <a href="#" className="social-icon group">
-              <div className="relative">
-                <Mail size={24} className="text-gray-400 group-hover:text-cyan-400 transition-colors duration-300" />
                 <div className="absolute inset-0 blur-sm bg-cyan-500 opacity-0 group-hover:opacity-40 transition-opacity duration-300"></div>
               </div>
             </a>
