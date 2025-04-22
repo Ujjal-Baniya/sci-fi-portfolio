@@ -8,11 +8,10 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="mb-8 md:mb-0">
           <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600 mb-4">
-            Neo Coder
+            Ujjal Baniya
           </h2>
           <p className="text-gray-400 max-w-md">
-            Creating digital experiences for the future.
-            Let's build something amazing together.
+          I turn bold ideas into scalable digital realities — from spatial data to AI-powered interfaces, I build with precision, purpose, and a touch of imagination.
           </p>
         </div>
         
@@ -50,7 +49,7 @@ const Footer = () => {
       </div>
       
       <div className="text-center mt-12 text-gray-600 text-sm">
-        © 2025 Neo Coder. All circuits reserved.
+      © 2025 Ujjal Baniya. All systems operational. All code intentional.
       </div>
     </footer>
   );

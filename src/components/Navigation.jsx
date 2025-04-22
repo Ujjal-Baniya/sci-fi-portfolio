@@ -18,7 +18,7 @@ const Navigation = () => {
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900 bg-opacity-90 shadow-lg shadow-cyan-500/10' : 'bg-transparent'}`}>
       <div className="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
-          NC
+          U J J A L
         </a>
 
         <div className="hidden md:flex space-x-8">
