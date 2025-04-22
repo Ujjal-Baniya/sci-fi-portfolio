@@ -5,37 +5,37 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "NeuroCrypt",
-      description: "AI-powered encryption system using neural networks to generate adaptive encryption keys.",
-      tech: ["React", "TensorFlow.js", "Node.js", "WebAssembly"],
-      period: "2023",
+      title: "Calgary Transit Companion",
+      description: "Full-stack Flask application integrating GTFS static data with real-time transit information to compute available routes with multi-bus transfers between any two addresses.",
+      tech: ["Flask", "SQLite", "Leaflet.js", "Bootstrap", "Geocoding APIs"],
+      period: "2025",
       github: "#",
       demo: "#"
     },
     {
       id: 2,
-      title: "Quantum Dashboard",
-      description: "Real-time data visualization platform for quantum computing metrics and experiments.",
-      tech: ["Vue.js", "D3.js", "GraphQL", "WebSockets"],
-      period: "2022",
+      title: "Optimal Placement of E.V Charging Stations",
+      description: "Spatial data mining study applying hotspot analysis and clustering algorithms to determine optimal EV charging station locations using demographic and land use datasets.",
+      tech: ["ArcGIS Pro", "Python", "Geopandas", "Scikit-learn", "MCDA"],
+      period: "2025",
       github: "#",
       demo: "#"
     },
     {
       id: 3,
-      title: "CyberMesh",
-      description: "Decentralized social network with blockchain-based identity verification and data ownership.",
-      tech: ["React", "Solidity", "IPFS", "Ethereum"],
-      period: "2022",
+      title: "Quiz Android App",
+      description: "Interactive quiz application with user-friendly interfaces, real-time updates, and smooth synchronization using Firebase backend for data management.",
+      tech: ["Flutter", "Firebase", "Android"],
+      period: "2023",
       github: "#",
       demo: "#"
     },
     {
       id: 4,
-      title: "SynthWave IDE",
-      description: "Retro-futuristic code editor with AI code completion and syntax highlighting.",
-      tech: ["Electron", "CodeMirror", "GPT-3", "TypeScript"],
-      period: "2021",
+      title: "Telegrambot-myHomie",
+      description: "Private Telegram bot in Python that automates Google Forms filling with provided data, ensuring data accuracy and submission reliability.",
+      tech: ["Python", "Telegram API", "Google Forms API"],
+      period: "2022",
       github: "#",
       demo: "#"
     }

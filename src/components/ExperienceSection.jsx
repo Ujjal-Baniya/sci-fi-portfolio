@@ -6,31 +6,24 @@ const ExperienceSection = () => {
   const experiences = [
     {
       id: 1,
-      role: "Sr. Frontend Engineer",
-      company: "NexusCore Technologies",
-      period: "2023 - Present",
-      description: "Lead developer for AI-augmented interfaces and real-time data visualization dashboards."
+      role: "Freelance Developer",
+      company: "Self-employed",
+      period: "2023 - 2024",
+      description: "Developed responsive and dynamic websites, conducted data scraping projects using Python, built web applications using JavaScript, Django, and Flask, and collaborated with international clients to deliver tailored solutions."
     },
     {
       id: 2,
-      role: "Full-Stack Developer",
-      company: "Quantum Solutions",
-      period: "2021 - 2023",
-      description: "Designed and implemented scalable web applications using React, Node.js, and GraphQL."
+      role: "IT Manager - Marketing & Development",
+      company: "Moonstruck",
+      period: "2022 - 2023",
+      description: "Led website development projects using WordPress, implemented SEO strategies, managed Google Ads and Meta Ads campaigns, and developed digital marketing strategies including social media and content marketing."
     },
     {
       id: 3,
-      role: "Cybersecurity Analyst",
-      company: "Digital Fortress",
-      period: "2020 - 2021",
-      description: "Conducted security audits and implemented encryption protocols for financial applications."
-    },
-    {
-      id: 4,
-      role: "ML Research Intern",
-      company: "AI Nexus Lab",
-      period: "2019 - 2020",
-      description: "Developed and optimized computer vision algorithms for autonomous systems."
+      role: "Co-Founder",
+      company: "Binary Squad",
+      period: "2019 - 2022",
+      description: "Led project meetings, coordinated teams, managed projects ensuring timely delivery and quality control, worked closely with clients to understand requirements, and oversaw business development opportunities."
     }
   ];
   

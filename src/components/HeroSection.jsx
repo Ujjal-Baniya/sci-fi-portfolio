@@ -18,14 +18,14 @@ const HeroSection = () => {
 
       <div className="max-w-4xl w-full bg-gray-900 bg-opacity-80 p-8 rounded-lg border border-cyan-500 shadow-lg shadow-cyan-500/20">
         <h1 className="text-5xl md:text-7xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
-          NEO CODER
+          UJJAL BANIYA
         </h1>
         <div className="text-xl md:text-2xl text-gray-300 mb-8">
-          <TypedText text="Full-stack Developer | AI Engineer | Cybersecurity Specialist" />
+          <TypedText text="GIS Developer | Full Stack Developer | Web 3 Enthusiast | AI Engineer" />
         </div>
         <p className="text-gray-400 mb-8 text-lg">
-          Creating digital experiences at the intersection of technology and imagination. 
-          Specializing in React, AI systems, and secure application architecture.
+        Creating digital experiences at the intersection of technology and imagination. 
+        Specializing in React, AI systems, and secure application architecture.
         </p>
         <div className="flex gap-4">
           <a href="mailto:ujjalbaniya@gmail.com" className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-md font-medium text-white hover:from-cyan-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 flex items-center gap-2">

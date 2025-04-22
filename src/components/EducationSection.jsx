@@ -7,25 +7,26 @@ const EducationSection = () => {
   const educationData = [
     {
       id: 1,
-      degree: "MSc in Artificial Intelligence",
-      institution: "Tech Futures University",
-      period: "2022 - 2024",
-      description: "Specialized in neural network architecture and reinforcement learning systems."
+      degree: "MEng. Geomatics Engineering",
+      institution: "University of Calgary",
+      period: "2023 - 2025",
+      description: "Specialized in comprehensive geospatial technologies including GIS design and implementation, spatial databases and data mining, satellite positioning systems, advanced photogrammetry techniques, environmental modeling methodologies, and cutting-edge geospatial topics. Proficient in applying these technologies to solve complex spatial problems and create innovative geospatial solutions."
     },
     {
       id: 2,
-      degree: "BSc in Computer Science",
-      institution: "Digital Institute of Technology",
+      degree: "BTech. in Computer Science and Engineering",
+      institution: "SRKR Engineering College",
       period: "2018 - 2022",
-      description: "Focus on algorithms, data structures, and full-stack development."
-    },
-    {
-      id: 3,
-      degree: "Certification in Cybersecurity",
-      institution: "Network Defense Academy",
-      period: "2021",
-      description: "Advanced security protocols and ethical hacking methodologies."
+      description: "Specialized in computer science fundamentals with strong focus on data structures, algorithms, and software engineering principles. Developed expertise in data analytics, machine learning, cryptography, and network security. Proficient in multiple programming paradigms including OOP through C++ and Java. Skilled in database management systems, web technologies, and big data analysis techniques. Completed comprehensive coursework in artificial intelligence and cloud computing solutions"
     }
+    // },
+    // {
+    //   id: 3,
+    //   degree: "Certification in Cybersecurity",
+    //   institution: "Network Defense Academy",
+    //   period: "2021",
+    //   description: "Advanced security protocols and ethical hacking methodologies."
+    // }
   ];
   
   return (
